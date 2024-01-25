@@ -1,0 +1,162 @@
+/* Mobile & Tablet */
+
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .wide {
+        width: 100%;
+    }
+    .header__search-btn {
+        top: 2px;
+    }
+}
+
+
+/* Tablet */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    /* header  */
+    .header__logo {
+        height: 40px;
+    }
+    .header {
+        padding: 10px;
+    }
+    .header__item-link {
+        font-size: 0.7rem;
+    }
+    .header__profile-account-title-name {
+        font-size: 1rem;
+    }
+    .header__profile-account-title-icon {
+        margin-left: 5px;
+    }
+    .header__profile-notification-sub {
+        width: 350px;
+    }
+    .header__menunav__list-item {
+        width: 200px;
+    }
+    /* search */
+    .container__top {
+        justify-content: start;
+    }
+    .select-box,
+    .select-box-2,
+    .select-box-3 {
+        width: 162px;
+    }
+    .selected,
+    .selected-2,
+    .selected-3 {
+        font-size: 1rem;
+    }
+    .header__search {
+        width: 276px;
+    }
+    .header__search-input {
+        width: 196px;
+    }
+    .header__search-btn {
+        width: 76px;
+    }
+    .header__search-input,
+    .header__search-sub-title {
+        font-size: 1rem;
+    }
+    .container__body-tilte {
+        padding: 20px 10px;
+    }
+    .container__body-content1-center {
+        height: 970px;
+    }
+    .container__body-data-item-infor-position-sub,
+    .container__body-content2-data-item-infor-position-sub {
+        top: -55px;
+    }
+    .container__body-data-item-infor-position-sub::after,
+    .container__body-content2-data-item-infor-position-sub::after {
+        top: 42px;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    /* Search */
+    .container__top {
+        justify-content: center;
+    }
+    .header-mobile__icon {
+        display: block;
+        right: 10px;
+        padding: 10px;
+    }
+    .header-mobile__icon-link {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    .header__profile {
+        margin-right: 20px;
+    }
+    .header-mobile__icon,
+    .header__profile-connect,
+    .header__profile-notification {
+        background-color: rgb(220, 250, 220, 1);
+    }
+    .header__search-sub-title,
+    .header__search-input {
+        font-size: 1rem;
+    }
+    .container__body-tilte-detail a,
+    .container__body-tilte-detail i {
+        font-size: 1rem;
+    }
+    .container__body-tilte-detail {
+        padding-top: 0;
+    }
+    .container__body-tilte-box-img {
+        width: 70px;
+        height: 70px;
+    }
+    .container__body-tilte-box-inforJob-jobtitle {
+        font-size: 1.4rem;
+        line-height: 18px;
+        margin-bottom: 8px;
+    }
+    .container__body-tilte-box-inforJob-companytilte {
+        font-size: 1.4rem;
+    }
+    .container__body-tilte-box-inforJob-deadline {
+        font-size: 1rem;
+    }
+    .container__body-tilte-box-apply-now,
+    .container__body-tilte-box-apply-save {
+        padding: 9px 3px;
+    }
+    .container__body-inforCompany-title h2 {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+    .container__body-job-tilte {
+        font-size: 1.5rem;
+    }
+    .container__body-job-box-item-body-content-left h3,
+    .container__body-job-box-item-body-content-left p {
+        font-size: 1.3rem;
+    }
+    .container__body-job-box-item-body-content-right p {
+        font-size: 1.2rem;
+    }
+    .container__body-job-box-item-body-bottom-label p {
+        font-size: 0.9rem;
+    }
+}

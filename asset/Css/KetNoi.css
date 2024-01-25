@@ -1,0 +1,260 @@
+.main {
+    height: 100vh;
+}
+
+
+/* left */
+
+.main-left {
+    border: 1px solid #eee;
+    height: 100vh;
+}
+
+.main-left-top {
+    margin-top: 24px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-left-top-logo-link {
+    width: 190px;
+}
+
+.main-left-top-logo-return {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-left-top-logo-return-home {
+    margin-top: 7px;
+}
+
+.main-left-top-logo-return-home-btn {
+    border-radius: 25px;
+    padding: 8px 15px;
+    white-space: nowrap;
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.04);
+    color: #555;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main-left-top-logo-return-setting-icon {
+    border-radius: 50%;
+    padding: 9px;
+    white-space: nowrap;
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.04);
+    color: #555;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* search */
+
+.main-left-search {
+    margin-top: 24px;
+    padding: 0 16px;
+    position: relative;
+}
+
+.main-left-search-icon {
+    line-height: 45px !important;
+    left: 32px;
+    color: #9e9c9c;
+    font-weight: 900 !important;
+    font-size: 1.6rem;
+    position: absolute;
+}
+
+.main-left-search-input {
+    background-color: transparent;
+    border: 1px solid #f2f2f2;
+    height: 45px;
+    border-radius: 25px;
+    padding-left: 40px;
+    color: #333;
+    font-size: 1.4rem;
+    width: 100%;
+    outline: none;
+}
+
+.main-left-panner-link-img {
+    width: 98%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+/* body */
+
+.main-center {
+    height: 100vh;
+    position: relative;
+}
+
+.main-center-title {
+    border-bottom: 1px solid #eee;
+}
+
+.main-center-title-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.main-center-title-text span {
+    color: var(--primary-color);
+}
+
+.main-center-content {
+    position: absolute;
+    top: 25%;
+    font-size: 1.3rem;
+    width: 100%;
+    text-align: center;
+}
+
+.main-center-content img {
+    width: 200px;
+}
+
+.main-center-content p {
+    text-align: center;
+}
+
+
+/* RIGHT */
+
+.main-right {
+    height: 100vh;
+    border: 1px solid #eee;
+    padding: 16px;
+}
+
+.main-right h3 {
+    margin: 8px 0;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+
+/* nav mobile tablet */
+
+.main-nav {
+    position: fixed;
+    bottom: 0;
+    background: var(--white-color);
+    width: 100%;
+    padding: 15px;
+    border-top: 1px solid #eee;
+    color: #6c757d;
+    display: none;
+}
+
+.main-nav-box {
+    display: flex;
+    justify-content: center;
+}
+
+.main-nav-box-chat,
+.main-nav-box-job {
+    margin: 0 48px;
+    text-align: center;
+}
+
+.main-nav-box-chat-icon,
+.main-nav-box-job-icon {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.main-nav-box-chat.active,
+.main-nav-box-job.active {
+    color: var(--primary-color);
+}
+
+.main-center.active {
+    display: block;
+}
+
+.main-right.active {
+    display: block;
+}
+
+.main-left.hide {
+    display: none;
+}
+
+
+/* đã ứng tuyển */
+
+.main-right-content {
+    margin: 16px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-right-content-img {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.main-right-content-img img {
+    width: 100%;
+}
+
+.main-right-content-text {
+    width: 80%;
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between !important;
+}
+
+.main-right-content-text-company {
+    max-width: 190px;
+}
+
+.main-right-content-text-company-link {
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+.main-right-content-text-company p {
+    font-size: 1.2rem;
+    color: #6c757d;
+    font-weight: 400;
+}
+
+.main-right-content-text-mes {
+    color: var(--primary-color);
+    background: #e4f6ec;
+    padding: 3px 10px;
+    font-size: 1.3rem;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+}
+
+.main-right-content-text-company a,
+.main-right-content-text-company p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

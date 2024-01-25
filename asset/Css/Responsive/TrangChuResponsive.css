@@ -1,0 +1,103 @@
+/* Mobile & Tablet */
+
+@media (max-width: 1023px) {
+    .wide {
+        width: 100%;
+    }
+    .search__left-form {
+        text-align: center;
+    }
+    .header__advanced-companyLogo {
+        justify-content: space-around;
+    }
+}
+
+
+/* Tablet */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .header__search-input {
+        width: 440px;
+    }
+    .header__search-btn {
+        top: 2px;
+    }
+    .header__search-input,
+    .header__search-sub-title {
+        font-size: 1rem;
+    }
+    .container__body-tilte {
+        padding: 20px 10px;
+    }
+    .container__body-slide2-item {
+        width: 216px;
+    }
+    .container__body-content1-center {
+        height: 970px;
+    }
+    .header__btn-login-link,
+    .header__btn-sign-up-link {
+        padding: 10px 7px;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 739px) {
+    .header__search-input {
+        width: 290px;
+    }
+    .header__search-btn {
+        height: 52px;
+        width: 73px;
+        top: 0;
+    }
+    .search__left h1 {
+        text-align: center;
+    }
+    .search__right-img {
+        width: auto;
+    }
+    .container__content1-tilte {
+        font-size: 1.6rem;
+    }
+    .container__body-content1-center {
+        height: 1924px;
+    }
+    .dowloadApp__left-tilte-top {
+        font-size: 2rem;
+    }
+    .dowloadApp__left-img {
+        display: flex;
+    }
+    .dowloadApp__right-img-link {
+        height: 400px;
+        width: 350px;
+    }
+    .magazineTalk-bottom-box-magazine {
+        height: 400px;
+        margin-top: 20px;
+    }
+    .header__btn-login-link,
+    .header__btn-sign-up-link {
+        margin-right: 3px;
+        padding: 13px 5px;
+    }
+    .header__btn-sign-up {
+        margin-right: 25px;
+    }
+    .BtnRightslide2 button {
+        right: 0;
+    }
+    .auth-form,
+    .auth-form-login {
+        width: 380px;
+    }
+    .auth-form__socials-title {
+        margin: 20px;
+    }
+    .container__body-slide2-item {
+        margin: 5px 21px;
+    }
+}

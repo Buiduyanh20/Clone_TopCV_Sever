@@ -1,0 +1,71 @@
+:root {
+    --primary-color: #00b14f;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+
+* {
+    box-sizing: inherit;
+    /* kế thừa từ thẻ chứa nó (inherit) */
+}
+
+html {
+    font-size: 62.5%;
+    /* đưa về 1 rem là 10px */
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* float */
+
+.fl-l {
+    float: left !important;
+}
+
+.fl-r {
+    float: right !important;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* Animation */
+
+@keyframes FadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes growth {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(var(1));
+    }
+}
+
+
+/* overlay */
+
+.over__lay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    animation: FadeIn linear 0.2s;
+    display: none;
+}

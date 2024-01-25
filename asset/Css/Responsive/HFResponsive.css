@@ -1,0 +1,134 @@
+/* Mobile & Tablet */
+
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .wide {
+        width: 100%;
+    }
+    .header__search-btn {
+        top: 2px;
+    }
+    .footer-white {
+        padding: 0 5px;
+    }
+}
+
+
+/* Tablet */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    /* header  */
+    .header__logo {
+        height: 40px;
+    }
+    .header__item-link,
+    .header__profile-account-title-name,
+    .list__sub-item-link {
+        font-size: 1rem;
+    }
+    .header__profile-account-title-icon {
+        margin-left: 5px;
+    }
+    .list__img-job,
+    .list__img-cv,
+    .list__img-contest {
+        display: none;
+    }
+    .list__sub-item,
+    .header__menunav__list-item {
+        width: 200px;
+    }
+    /* search */
+    .container__top {
+        justify-content: start;
+    }
+    .select-box,
+    .select-box-2,
+    .select-box-3 {
+        width: 162px;
+    }
+    .selected,
+    .selected-2,
+    .selected-3 {
+        font-size: 1rem;
+    }
+    .header__search {
+        width: 276px;
+    }
+    .header__search-input {
+        width: 196px;
+    }
+    .header__search-btn {
+        width: 76px;
+    }
+    .header__search-input,
+    .header__search-sub-title {
+        font-size: 1rem;
+    }
+    .footer-gray-top {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .footer__company {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .footer-gray-bottom {
+        padding: 0 25px;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    /* Search */
+    .container__top {
+        justify-content: center;
+    }
+    .header-mobile__icon {
+        display: block;
+        right: 10px;
+        padding: 10px;
+    }
+    .header-mobile__icon-link {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    .header__profile-notification-sub {
+        width: 220px;
+    }
+    .header__profile {
+        margin-right: 20px;
+    }
+    .header-mobile__icon,
+    .header__profile-connect,
+    .header__profile-notification {
+        background-color: rgb(220, 250, 220, 1);
+    }
+    .header__search-sub-title,
+    .header__search-input {
+        font-size: 1rem;
+    }
+    .BtnRight button,
+    .BtnLeft button {
+        top: 36px;
+        width: 20px;
+        height: 20px;
+    }
+    .footer-gray-top {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .footer-gray-bottom {
+        padding: 0 5px;
+    }
+}
